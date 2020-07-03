@@ -1,0 +1,11 @@
+# Machine Learning for Leakage Detection from Hydrocarbon Wells
+
+#### This work is in process of publication. Real data set and new developed codes are removed from this script. The completed script will be uploaded when the paper gets published. 
+
+Expansion in exploitation of oil and gas reserves has raised public concern regarding contamination of soil and underground water resources, and increase in greenhouse gas emission . Gas such as methane, sequestered CO2 and/or any liquid or combination can migrate and leak from wellbores to water aquifers, ground surface and atmosphere. Leakage pathways may exist along and through boreholes. The presence of such fluid pathways is a significant environmental issue. Regular field monitoring should be applied to detect serious leakage through exiting oil and gas wells: leakiest wells should be prioritized for amendment.
+
+The Alberta Energy Regulator (AER) in Alberta, Canada, operates such field tests for energy wells within the province. The AER applies two field tests for identification of fluid migration after a well is completed to produce hydrocarbon or to inject any fluid: 1- Surface casing vent flow (SCVF) is the flow of gas (methane, CO2..) or liquid or any combination out of the casing annulus or surface casing. SCVF is often referred to as internal migration. 2- Gas Migration (GM) is a flow of any gas that is detectable at surface outside of the outermost casing string. GM is often referred to as seepage or external migration. The challenge is there are many wells in producing (and injecting) areas. Efficient and cost-effective testing operation for all wells is impossible.
+
+The main objectives of this work are 1- imputing missing data with a new bootstrapping technique that respect the correlation between variables with uncertainty quantification, 2- predicting Seriousness of the leakages based on relevant properties of the wells with positive SCVF/GM within the entire Alberta, Canada 3- Applying several predicting models and integration of some promising machine learning and deep learning techniques (ensemble) to enhance efficiency of prediction.
+
+A wide range of machine learning and deep learning algorithms are considered from basic to sophisticated ones and an amalgamation in ensemble learning.
